@@ -38,3 +38,12 @@ input[type="password"]:not(.browser-default):focus:not([readonly]) + label {
 .border {
   border: double 3px black;
 }
+
+@media only screen and (max-width: 444px){
+  nav ul a {
+    font-size: .8em;
+  }
+  nav .brand-logo{
+    font-size: 1.5em;
+  }
+}
